@@ -81,7 +81,7 @@ const Contact = () => {
 
             <div className="flex items-center justify-between">
               <button
-                className="bg-[#17BC3D] hover:bg-green-700 w-full duration-300 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                className="bg-[#17BC3D] hover:bg-green-700 w-full duration-300 text-white font-bold py-2 px-4 rounded-3xl focus:outline-none focus:shadow-outline"
                 type="button"
               >
                Submit a request

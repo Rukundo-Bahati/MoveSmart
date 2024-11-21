@@ -1,9 +1,60 @@
+import { FaSackDollar, FaUsers } from "react-icons/fa6";
 import img from "../assets/landingimg.png";
 import About from "./About";
 import Contact from "./Contact";
 import Service from "./Service";
+import Testimonial from "./Testimonial";
+import { BsFillBookmarkCheckFill } from "react-icons/bs";
+import FrequentlyAs from "./FrequentlyAs";
+import Mobile from "../components/Mobile";
+import Footer from "./Footer";
 
 const Home = () => {
+
+  const countersData = [
+    {
+      icon: <FaUsers size={50} color="blue" />,
+      heading: "2,000,000+",
+      text: "happy and collaborated companies that we worked with",
+    },
+    {
+      icon: <BsFillBookmarkCheckFill size={50} color="orange" />,
+      heading: "4.8/5+",
+      text: "average satisfaction rating from 5,000+ reviews on G2, Capterra, Trustpilot & more.",
+    },
+    {
+      icon: <FaSackDollar size={50} color="green" />,
+      heading: "10+ million",
+      text: "it helped more than 10 million transporters allover the country",
+    },
+  ];
+
+  const testimonials = [
+    {
+      name: "John Allendane",
+      review: "I love how it is very attractive for all companies for both the big companies and also small companies which make it widely used",
+      rating: 5,
+      role: "Alx founder",
+      imageUrl: "https://picsum.photos/seed/picsum/200/300"
+    },
+    {
+      name: "Lisa Batitto",
+      review: "I’m having a lot of work and care with this yiteg ere which makes it very intuitive for me and daily workers.....",
+      rating: 4,
+      role: "Hinga Founder and coordinator",
+      imageUrl: "https://picsum.photos/seed/picsum/200/300"
+    },
+    {
+      name: "Nicolai Grut",
+      review:"I’m having a lot of work and care with this yiteg ere which makes it very intuitive for me and daily workers.....",
+      rating: 4,
+      role: "Accountant at Umurava",
+      imageUrl: "https://picsum.photos/seed/picsum/200/300"
+    },
+    // Add more testimonials as needed
+  ];
+  
+
   return (
     <div>
     <div className="bg-[#17BC3D] px-5 flex items-center">
@@ -33,6 +84,10 @@ const Home = () => {
     <Service />
     <About />
     <Contact />
+    <Testimonial counters={countersData} testimonials={testimonials} />
+    <FrequentlyAs />
+    <Mobile />
+    <Footer />
     </div>
   );
 };
