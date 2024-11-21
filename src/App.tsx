@@ -3,7 +3,7 @@ import Nav from './components/Nav';
 import Home from './pages/Home';
 import './App.css'
 import Service from './pages/Service';
-import Booking from './pages/Booking';
+import About from './pages/About';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/service" element={<Service />} />
-        <Route path="/booking" element={<Booking />} />
+        <Route path="/booking" element={<About />} />
         {/* Add more routes as necessary */}
       </Routes>
     </Router>

@@ -1,7 +1,10 @@
 import img from "../assets/landingimg.png";
+import About from "./About";
+import Service from "./Service";
 
 const Home = () => {
   return (
+    <div>
     <div className="bg-[#17BC3D] px-5 flex items-center">
       <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-52 w-full">
         {/* Text Section */}
@@ -25,6 +28,9 @@ const Home = () => {
           <img src={img} alt="Landing" className="w-full md:w-[400px] lg:w-[600px] xl:w-[800px]" />
         </div>
       </div>
+    </div>
+    <Service />
+    <About />
     </div>
   );
 };
