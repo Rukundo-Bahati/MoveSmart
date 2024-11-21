@@ -1,5 +1,6 @@
 import img from "../assets/landingimg.png";
 import About from "./About";
+import Contact from "./Contact";
 import Service from "./Service";
 
 const Home = () => {
@@ -31,6 +32,7 @@ const Home = () => {
     </div>
     <Service />
     <About />
+    <Contact />
     </div>
   );
 };
