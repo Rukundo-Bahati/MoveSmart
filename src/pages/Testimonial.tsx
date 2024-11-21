@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Counter from "../components/Counter";
 import TestimonialCard from "../components/TestimonialCard";
 
+
 interface CounterType {
   icon: JSX.Element;
   heading: string;
@@ -24,7 +25,7 @@ interface TestimonialProps {
 const Testimonial = ({ counters, testimonials }: TestimonialProps) => {
   return (
     <div>
-      <h1 className="font-semibold text-4xl my-6 text-center">Loved by Travellers around Rwanda</h1>
+      <h1 className="font-semibold text-4xl my-9 text-center">Loved by Travellers around Rwanda</h1>
 
       {/* Render Counters */}
       <div className="lg:flex justify-between items-center my-5 px-10">
