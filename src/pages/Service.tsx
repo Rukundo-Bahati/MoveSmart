@@ -9,7 +9,7 @@ const Service = () => {
       </div>
       <div className="my-5 text-center">
       <h3 className="text-4xl md:my-7">Get more information about what we provide to our clients</h3>
-      <p className="my-4 text-center text-xl text-center">MoveSmart offers reliable and efficient moving services for both residential and commercial needs. <br /> From packing and loading to transportation and storage, we ensure a seamless experience. <br /> Trust us to handle your move with care, professionalism, and attention to detail.</p>
+      <p className="my-4 text-center text-xl ">MoveSmart offers reliable and efficient moving services for both residential and commercial needs. <br /> From packing and loading to transportation and storage, we ensure a seamless experience. <br /> Trust us to handle your move with care, professionalism, and attention to detail.</p>
       </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3">

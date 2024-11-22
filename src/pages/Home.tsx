@@ -63,7 +63,7 @@ const Home = () => {
         <div className="text-white max-w-lg flex flex-col justify-between h-[55vh] md:mt-20">
           <div>
             <h3 className="text-4xl md:text-6xl font-bold mb-8 leading-tight">
-              Discover Effortless Travel with Yitegere!
+              Discover Effortless Travel with SmartBus!
             </h3>
             <p className="text-xl md:text-2xl">
               Book, track, and manage your transportation needs in one seamless
