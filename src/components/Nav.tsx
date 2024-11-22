@@ -9,7 +9,7 @@ const Nav = () => {
       <div className="flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="text-white font-bold text-2xl">
-          Yitegere
+          SmartBus
         </Link>
 
         {/* Hamburger Icon */}
@@ -38,12 +38,7 @@ const Nav = () => {
           >
             Service
           </Link>
-          <Link
-            to="/booking"
-            className="text-white text-xl relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
-          >
-            Booking
-          </Link>
+          
           <Link
             to="/about"
             className="text-white text-xl relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
@@ -56,8 +51,15 @@ const Nav = () => {
           >
             Contact
           </Link>
+          <Link
+            to="/help"
+            className="text-white text-xl relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
+          >
+            Help
+          </Link>
           <a
-            href="#_"
+            href="https://play.google.com/store/apps?pli=1"
+            target="_blank"
             className="relative inline-flex items-center justify-center p-5 w-48 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-white rounded-full shadow-md group"
           >
             <span className="absolute inset-0 flex items-center justify-center w-full h-full text-green-600 duration-300 -translate-x-full bg-white group-hover:translate-x-0 ease">

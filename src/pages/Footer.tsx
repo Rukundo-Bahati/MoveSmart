@@ -22,38 +22,56 @@ const Footer = () => {
         />
         <button
           type="button"
-          className="bg-[#17BC3D] p-2 rounded-md text-white"
+          className="bg-[#17BC3D] p-2 rounded-md text-white hover:bg-green-700 duration-300"
         >
           Subscribe
         </button>
       </div>
 
       <div className="my-4 flex flex-col lg:flex-row items-center justify-between gap-4">
-        <h2 className="font-semibold text-2xl">Yitegere</h2>
+        <h2 className="font-semibold text-2xl">SmartBus</h2>
         <div className="flex flex-wrap items-center justify-center gap-4 lg:gap-8">
           <Link to={"/"} className="text-xl lg:text-base hover:underline">
             Home
           </Link>
-          <Link to={"/"} className="text-sm lg:text-base hover:underline">
+          <Link to={"/services"} className="text-sm lg:text-base hover:underline">
             Services
           </Link>
-          <Link to={"/"} className="text-sm lg:text-base hover:underline">
+          <Link to={"/about"} className="text-xl lg:text-base hover:underline">
             About Us
           </Link>
-          <Link to={"/"} className="text-sm lg:text-base hover:underline">
-            Booking
+          <Link to={"/help"} className="text-sm lg:text-base hover:underline">
+            Help
           </Link>
         </div>
         <div className="flex items-center justify-center gap-4">
-          <FaFacebook size={40} className="text-blue-500" />
-          <FaYoutube size={40} className="text-red-600" />
-          <FaInstagram size={40} />
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebook size={40} className="text-blue-500" />
+          </a>
+          <a
+            href="https://www.youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaYoutube size={40} className="text-red-600" />
+          </a>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram size={40} />
+          </a>
         </div>
       </div>
 
       {/* horizontal line */}
       <div className="border-t border-dark mb-4"></div>
-      <p className="text-center m-4">copyright by 2024 </p>
+      <p className="text-center m-4">copyright by S.Bus 2024 </p>
     </div>
   );
 };

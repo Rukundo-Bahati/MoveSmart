@@ -70,9 +70,9 @@ const Home = () => {
               platform.
             </p>
           </div>
-          <button className="rounded-3xl bg-white text-[#17BC3D] px-6 py-3 mt-auto w-full md:w-1/2 hover:shadow-md hover:shadow-white duration-300">
+          <a href="https://play.google.com/store/apps?pli=1" target="_blank" className="rounded-3xl bg-white text-[#17BC3D] px-6 py-3 mt-auto text-center w-full md:w-1/2 hover:shadow-md hover:shadow-white duration-300">
             Get Our Mobile App
-          </button>
+          </a>
         </div>
 
         {/* Image Section */}

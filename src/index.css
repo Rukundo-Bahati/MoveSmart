@@ -1,11 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 /* Add these lines to your global CSS file (e.g., styles.css) */
 @import 'swiper/css';
 @import 'swiper/css/pagination';
 @import 'swiper/css/navigation';
 
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 @layer base {

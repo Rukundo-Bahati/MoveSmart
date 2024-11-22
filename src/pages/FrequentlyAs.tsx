@@ -10,36 +10,36 @@ const FrequentlyAs = () => {
 
   const faqItems = [
     {
-      question: "What is Yitegere?",
-      answer: "Yitegere is a smart system for booking buses, selecting seats, and making payments easily."
+      question: "What is SmartBus?",
+      answer: "SmartBus is a smart system for booking buses, selecting seats, and making payments easily."
     },
     {
       question: "How do I update my billing information?",
       answer: "You can update billing information in the 'Billing' section of your account settings."
     },
     {
-      question: "How can Yitegere help me get easy Transport?",
+      question: "How can SmartBus help me get easy Transport?",
       answer: "It provides real-time bus schedules, seat availability, and simplifies booking and payments."
     },
     {
       question: "You have Free trial?",
-      answer: "Yes, Yitegere offers users free access to explore its features before booking."
+      answer: "Yes, SmartBus offers users free access to explore its features before booking."
     },
     {
-      question: "Who founded Yitegere?",
-      answer: "Yitegere was developed to modernize and enhance Rwanda's transportation system."
+      question: "Who founded SmartBus?",
+      answer: "SmartBus was developed to modernize and enhance Rwanda's transportation system."
     },
     {
-      question: "Who can use Yitegere?",
+      question: "Who can use SmartBus?",
       answer: "Regular commuters, tourists, business travelers, and anyone planning bus travel can use it."
     },
     {
-      question: "What integrations does Yitegere offer?",
+      question: "What integrations does SmartBus offer?",
       answer: "It integrates with bus operators to provide real-time schedules, seat availability, and payment confirmations."
     },
     {
-      question: "Who owns the Yitegere company?",
-      answer: "Yitegere is owned and managed by stakeholders aiming to modernize Rwanda’s transportation."
+      question: "Who owns the SmartBus company?",
+      answer: "SmartBus is owned and managed by stakeholders aiming to modernize Rwanda’s transportation."
     }
   ];
   
