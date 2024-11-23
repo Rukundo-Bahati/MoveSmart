@@ -57,7 +57,7 @@ const Home = () => {
 
   return (
     <div>
-    <div className="bg-[#17BC3D] px-5 flex items-center">
+    <div className="bg-[#17BC3D] px-12 flex items-center">
       <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-52 w-full">
         {/* Text Section */}
         <div className="text-white max-w-lg flex flex-col justify-between h-[55vh] md:mt-20">

@@ -5,7 +5,7 @@ const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="bg-[#17BC3D] p-4">
+    <div className="bg-[#17BC3D] p-4 px-12">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="text-white font-bold text-2xl">

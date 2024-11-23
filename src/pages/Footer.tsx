@@ -1,5 +1,7 @@
-import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import ig from '../assets/ig.png'
+import tube from '../assets/youtube.png'
+import fb from '../assets/fb.png'
 
 const Footer = () => {
   return (
@@ -50,21 +52,21 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaFacebook size={40} className="text-blue-500" />
+          <img src={fb} alt="facebook" className="w-10" />
           </a>
           <a
             href="https://www.youtube.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaYoutube size={40} className="text-red-600" />
+           <img src={tube} alt="youtube" className="w-10"  />
           </a>
           <a
             href="https://www.instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram size={40} />
+            <img src={ig} alt="instagram" className="w-10"  />
           </a>
         </div>
       </div>
